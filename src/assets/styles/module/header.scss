@@ -1,0 +1,36 @@
+.header-container {
+  padding: 20px 30px;
+  .header-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo {
+      width: 52px;
+      height: 52px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+.side-navigation {
+  width: 350px;
+
+  .side-nave-list {
+    padding: 20px 40px;
+
+    .side-nave {
+      color: #969ba0;
+      font-size: 18px;
+    }
+	.activ-nav{
+		color:#6ec51e;
+	}
+    .nav-text {
+      margin-left: 10px;
+    }
+  }
+}
