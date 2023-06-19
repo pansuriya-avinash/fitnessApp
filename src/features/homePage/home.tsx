@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import { userData } from "./util/utils";
 import { Pie } from "react-chartjs-2";
-import moment from "moment";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import moment from "moment";
+import { userData } from "./util/utils";
 import { faRectangleXmark } from "@fortawesome/free-solid-svg-icons";
 
 const home = () => {
