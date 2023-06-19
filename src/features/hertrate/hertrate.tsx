@@ -12,7 +12,7 @@ const Hertrate = () => {
 		scales: {
 			y: {
 				beginAtZero: true,
-				suggestedMax: 40 // Customize the maximum value on the y-axis if needed
+				suggestedMax: 40 
 			}
 		}
 	};
